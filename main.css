@@ -10,11 +10,12 @@ body {
 
 h1 {
     position: absolute;
+    color: #FFFFFF;
     top: 50%;
     left: 50%;
     padding-top: 50%;
     transform: translate(-50%, -50%);
-    font-size: 300%;
+    font-size: 500%;
     border-bottom: 3px solid #131313;
     text-decoration: overline #131313;
 }
@@ -26,7 +27,7 @@ h1 {
     padding-left: 50%;
 }
 
-nav {
+.principal {
     background: rgba(250,250,250,0.2);
     height: 80px;
     position: fixed;
@@ -101,6 +102,28 @@ body {
 }
 
 .pai em {
-    color: #393939;
+    color: #FFF;
     font-style: normal;
+}
+
+nav div .opcoes {
+    max-width:100%;
+    height: 300px auto;
+    background-color= #000000;
+}
+
+.servisos {
+    margin: 0px;
+    padding:0px;
+}
+
+ul li {
+    display: inline-block;
+    color: #000000;
+    top: 50%;
+    left: 50%;
+}
+
+h2 {
+    text-align: center;
 }
