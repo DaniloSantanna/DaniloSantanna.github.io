@@ -106,9 +106,9 @@ body {
     font-style: normal;
 }
 
-nav div .opcoes {
+.opcoes {
     max-width:100%;
-    height: 300px auto;
+    height: 300px;
     background-color= #000000;
 }
 
@@ -119,10 +119,14 @@ nav div .opcoes {
 
 ul li {
     display: inline-block;
-    color: #000000;
- 
+    color: #000000; 
 }
 
 h2 {
     text-align: center;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
 }
