@@ -112,14 +112,10 @@ body {
     background-color= #000000;
 }
 
-.servisos {
-    margin: 0px;
-    padding:0px;
-}
-
 ul li {
     display: inline-block;
-    color: #000000; 
+    color: #000000;
+    margin: 10px;
 }
 
 h2 {
@@ -129,4 +125,10 @@ h2 {
 ul {
     display: flex;
     justify-content: center;
+    margin: 10px; 
+    padding: 10px;   
+}
+
+.meiodapag {
+    max-width:100%
 }
