@@ -242,7 +242,8 @@ body {
 .slideshow {
     height: 335px;
     background-color: #CCC;
-    overflow: hidden;    
+    overflow: hidden;
+    margin-bottom: 20px;  
 }
 
 .slideshowarea {
@@ -294,4 +295,37 @@ body {
     cursor: pointer;
     background-color: #CCC;
     border-radius: 10px;
+}
+
+.noticiaarea1 {
+    width: 430px;
+    height: 420px;
+    float: left;
+}
+
+.noticiaarea2 {
+    width: 320px;
+    height: 420px;
+    float: left;
+}
+
+.noticiaitem {
+
+}
+
+.noticiaimg {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #CCC;
+    padding: 3px;
+    float: left;
+}
+
+.noticiatitulo {
+    margin-left: 6px;
+    font-size: 16px;
+}
+
+.noticiainfo {
+
 }
